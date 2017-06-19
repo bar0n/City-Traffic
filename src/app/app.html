@@ -1,0 +1,22 @@
+
+<div flex layout="column">
+    <md-toolbar class="md-hue-2">
+        <top-bar left-side-nav-id="{{ App.leftSideNavId }}"></top-bar>
+    </md-toolbar>
+    <div class="wrapper" flex layout="row">
+        <side-nav component-id="{{ App.leftSideNavId }}" layout="row"></side-nav>
+       <!-- <md-content flex layout="row" id="content">
+            <dashboard flex layout="row"></dashboard>
+        </md-content>-->
+
+       <!-- <dashboard flex style="justify-content: center;"></dashboard>-->
+
+        <ui-view flex layout="row"></ui-view>
+
+    </div>
+</div>
+
+<!--<div class="wrapper" flex>
+    <top-bar left-side-nav-id="{{ App.leftSideNavId }}"></top-bar>
+    <dashboard flex style="justify-content: center;"></dashboard>
+</div>-->
